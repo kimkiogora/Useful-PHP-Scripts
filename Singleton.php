@@ -1,4 +1,7 @@
 <?php
+/**
+ * @author: kim kiogora <kimkiogora@gmail.com>
+*/ 
 $check_file="Singleton.php";
 $cmd="ps aux | grep -i $check_file | grep -v \"grep\"|awk '{print $2}'";
 $result =array();
